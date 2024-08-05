@@ -1,0 +1,105 @@
+body{
+    background-image: url(Fondo-Programador.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;;
+    padding: 0;
+    margin: 0;
+}
+main{
+    height: 70vh;
+    background-color: 0, 0, 0, 0.5;
+}
+.intro{
+    height: 20vh;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+}
+.main-content{
+
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    height: 20vh;
+    color: white;
+    background-color: black;    
+   
+
+}
+footer{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background-color: black;
+    color: white;
+    border: 1px solid yellow;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+p{
+    color: white;
+    text-decoration: underline;
+}
+small {
+    padding: 5px; /* Espacio interno */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: white; /* Fondo amarillo claro */
+    font-size: 70%; /* Tamaño de fuente ajustado */
+    color: black; /* Color del texto */
+  }
+  @keyframes moveAndRotate {
+    0% {
+      transform: translate(-10vh, -10vh) rotate(0deg);
+    }
+    10% {
+      transform: translate(0vh, 0vh) rotate(90deg);
+    }
+    20% {
+      transform: translate(10vh, 10vh) rotate(180deg);
+    }
+    30% {
+      transform: translate(20vh, 0vh) rotate(270deg);
+    }
+    40% {
+      transform: translate(30vh, 10vh) rotate(360deg);
+    }
+    50%{
+      transform: translate(30vh, 10vh) rotate(360deg);
+    }
+    60%{
+      transform: translate(30vh, 10vh) rotate(360deg);
+    }
+    70%{
+      transform: translate(30vh, 10vh) rotate(360deg);
+    }
+    80%{
+      transform: translate(30vh, 10vh) rotate(360deg);
+    }
+    90%{
+      transform: translate(30vh, 10vh) rotate(360deg);
+    }
+    100%{
+      transform: translate(0, 0) rotate(360deg);
+    }
+
+    
+  }
+
+  .moving-text {
+    display: inline-block;
+    font-size: 20px;
+    animation: moveAndRotate 8s infinite linear;
+  }
